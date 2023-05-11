@@ -1,0 +1,7 @@
+---
+# If enabled will deploy vcluster in an isolated mode with pod security
+# standards, limit ranges and resource quotas
+isolation:
+    enabled: true
+    resourceQuota:
+        enabled: false
